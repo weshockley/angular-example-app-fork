@@ -20,10 +20,68 @@
 
 ## Setup
 
+### Prerequisites
+
+- Node.js (v18.x or v20.x recommended)
+- npm (v8.x or higher)
+- VS Code (recommended for development)
+
+### Quick Start
+
 ```bash
 npm i
 npm start
 ```
+
+### VS Code Development Environment
+
+This project includes comprehensive VS Code configuration for an optimal development experience.
+
+#### Opening the Project
+
+1. **Option 1:** Open the workspace file
+   ```bash
+   code angular-example-app.code-workspace
+   ```
+
+2. **Option 2:** Open the folder directly
+   ```bash
+   code .
+   ```
+
+#### Recommended Extensions
+
+The project automatically suggests installing these extensions:
+- **Angular Language Service** - Angular template support
+- **Prettier** - Code formatting
+- **ESLint** - JavaScript/TypeScript linting
+- **Stylelint** - CSS/SCSS linting  
+- **TypeScript Importer** - Auto import suggestions
+- **Playwright Test** - E2E testing support
+
+#### Available VS Code Tasks
+
+Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) and type "Tasks: Run Task" to access:
+
+- **ng-serve** - Start development server (English)
+- **ng-serve-es** - Start development server (Spanish)
+- **ng-build** - Build for production
+- **ng-test** - Run unit tests
+- **ng-test-watch** - Run tests in watch mode
+- **ng-lint** - Run linting
+- **ng-e2e** - Run end-to-end tests
+- **ng-generate-component** - Generate new component
+- **ng-generate-service** - Generate new service
+
+#### Debugging
+
+Launch configurations are available for:
+- **Launch Chrome (Development)** - Debug in Chrome
+- **Launch Chrome (Spanish)** - Debug Spanish version
+- **Launch Edge (Development)** - Debug in Edge
+- **Run Tests (Chrome)** - Debug unit tests
+
+Press `F5` or go to Run and Debug panel to start debugging.
 
 ## Status
 
